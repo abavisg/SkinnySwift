@@ -15,12 +15,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        CodeExecutiontimer.start()
+        //CodeExecutiontimer.start()
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        CodeExecutionTimer.stop()
+        //CodeExecutionTimer.stop()
     }
 
     override func didReceiveMemoryWarning() {
