@@ -13,6 +13,7 @@
 		2D2388A31CF77F0B0008F12A /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D23889E1CF77F0B0008F12A /* UIView+Xib.swift */; };
 		2D2388A41CF77F0B0008F12A /* CodeExecutionTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2388A01CF77F0B0008F12A /* CodeExecutionTimer.swift */; };
 		2D2388A51CF77F0B0008F12A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2388A21CF77F0B0008F12A /* Alerts.swift */; };
+		2D69599F1CF7962F001C3053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69599E1CF7962F001C3053 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		2D23889E1CF77F0B0008F12A /* UIView+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
 		2D2388A01CF77F0B0008F12A /* CodeExecutionTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeExecutionTimer.swift; sourceTree = "<group>"; };
 		2D2388A21CF77F0B0008F12A /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		2D69599E1CF7962F001C3053 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D69599F1CF7962F001C3053 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		2D2388791CF77C180008F12A = {
 			isa = PBXGroup;
 			children = (
+				2D69599E1CF7962F001C3053 /* UIKit.framework */,
 				2D2388871CF77CAE0008F12A /* SkinnySwift */,
 				2D2388931CF77CAF0008F12A /* SkinnySwiftTests */,
 				2D2388861CF77CAE0008F12A /* Products */,
@@ -254,16 +258,16 @@
 		2D23887E1CF77C180008F12A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
 		2D23887F1CF77C180008F12A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
