@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   What's inside
-  Extensions: UIView, UIColor
-  Tools: CodeExecutionTimer
-  Utilities: Alerts
+  - Extensions: UIView, UIColor
+  - Tools:      CodeExecutionTimer
+  - Utilities:  Alerts
                        DESC
 
   s.homepage         = 'https://github.com/abavisg/SkinnySwift'
