@@ -1,6 +1,6 @@
 //
-//  UIView+Xib.swift
-//  abavisg-lib
+//  UIView.swift
+//  SkinnySwift
 //
 //  Created by Georgios Ampavis
 //  Copyright © 2016 Georgios Ampavis. All rights reserved.

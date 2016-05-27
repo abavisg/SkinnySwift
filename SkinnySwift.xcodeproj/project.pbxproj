@@ -10,10 +10,11 @@
 		2D2388891CF77CAF0008F12A /* SkinnySwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2388881CF77CAF0008F12A /* SkinnySwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D2388901CF77CAF0008F12A /* SkinnySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2388851CF77CAE0008F12A /* SkinnySwift.framework */; };
 		2D2388951CF77CAF0008F12A /* SkinnySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2388941CF77CAF0008F12A /* SkinnySwiftTests.swift */; };
-		2D2388A31CF77F0B0008F12A /* UIView+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D23889E1CF77F0B0008F12A /* UIView+Xib.swift */; };
+		2D2388A31CF77F0B0008F12A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D23889E1CF77F0B0008F12A /* UIView.swift */; };
 		2D2388A41CF77F0B0008F12A /* CodeExecutionTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2388A01CF77F0B0008F12A /* CodeExecutionTimer.swift */; };
 		2D2388A51CF77F0B0008F12A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2388A21CF77F0B0008F12A /* Alerts.swift */; };
 		2D69599F1CF7962F001C3053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69599E1CF7962F001C3053 /* UIKit.framework */; };
+		2DB6AB001CF89ED80056D1EA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6AAFF1CF89ED80056D1EA /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +34,11 @@
 		2D23888F1CF77CAF0008F12A /* SkinnySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinnySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2388941CF77CAF0008F12A /* SkinnySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinnySwiftTests.swift; sourceTree = "<group>"; };
 		2D2388961CF77CAF0008F12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D23889E1CF77F0B0008F12A /* UIView+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Xib.swift"; sourceTree = "<group>"; };
+		2D23889E1CF77F0B0008F12A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		2D2388A01CF77F0B0008F12A /* CodeExecutionTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeExecutionTimer.swift; sourceTree = "<group>"; };
 		2D2388A21CF77F0B0008F12A /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		2D69599E1CF7962F001C3053 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DB6AAFF1CF89ED80056D1EA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,8 @@
 		2D23889D1CF77F0B0008F12A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2D23889E1CF77F0B0008F12A /* UIView+Xib.swift */,
+				2D23889E1CF77F0B0008F12A /* UIView.swift */,
+				2DB6AAFF1CF89ED80056D1EA /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,7 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2388A31CF77F0B0008F12A /* UIView+Xib.swift in Sources */,
+				2D2388A31CF77F0B0008F12A /* UIView.swift in Sources */,
+				2DB6AB001CF89ED80056D1EA /* UIColor.swift in Sources */,
 				2D2388A51CF77F0B0008F12A /* Alerts.swift in Sources */,
 				2D2388A41CF77F0B0008F12A /* CodeExecutionTimer.swift in Sources */,
 			);

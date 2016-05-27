@@ -1,6 +1,6 @@
 //
 //  Alerts.swift
-//  abavisg-lib
+//  SkinnySwift
 //
 //  Created by Georgios Ampavis
 //  Copyright © 2016 Georgios Ampavis. All rights reserved.
