@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SkinnySwift'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A selection of various classes that I use all the time'
 
 # This description is used to generate tags and improve search results.
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-What's inside
-  Extensions: UIView+Xib
-  Tools: CodeExecutionTimer
-  Utilities: Alerts
+  What's inside
+  - Extensions: UIView, UIColor
+  - Tools:      CodeExecutionTimer
+  - Utilities:  Alerts
                        DESC
 
   s.homepage         = 'https://github.com/abavisg/SkinnySwift'

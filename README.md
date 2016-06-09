@@ -1,5 +1,5 @@
 # SkinnySwift
-##### Version 0.1.0
+##### Version 0.2.0
 Helpful swift classes to speed up development
 
 ## Installation
@@ -21,7 +21,8 @@ pod "SkinnySwift"
 ## What's inside
 
 #### Extensions
-* UIView+Xib
+* UIView
+* UIColor
 
 #### Tools
 * CodeExecutionTimer
@@ -30,13 +31,14 @@ pod "SkinnySwift"
 * Alerts
 
 ## Todos
- - Add to Cocoapods
+ - Add more code!
  - Add Comments
  - Generate documentation
  
 ## History
- 
-- Version 0.1 (2016-05-26): adding extension UIView+Xib, tool CodeExecutionTimer, utility Alerts
+
+- Version 0.2.0 (2016-05-27): Renamed UIColor+Xib to UIView UIView and added UIColor
+- Version 0.1.0 (2016-05-26): adding extension UIView+Xib, tool CodeExecutionTimer, utility Alerts
 
 ## Credits
  
