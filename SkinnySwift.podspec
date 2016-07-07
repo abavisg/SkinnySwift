@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   What's inside
-  - Extensions: UIView, UIColor
+  - Extensions: UIView, UITextfield, UIColor
   - Tools:      CodeExecutionTimer
   - Utilities:  Alerts
                        DESC
