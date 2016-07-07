@@ -52,4 +52,22 @@ public class Alerts {
 			}
 	}
 
+	public class func showStandardAlert(atController controller: UIViewController,
+		title: String,
+		message: String,
+		buttonTitle: String = "OK",
+		presentedHandler: (() -> Void)) {
+
+			let alertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+
+			let defaultAction = UIAlertAction(title: buttonTitle, style: .Default) { (action) in
+
+			}
+			alertController.addAction(defaultAction)
+
+			controller.presentViewController(alertController, animated: true) {
+				presentedHandler()
+			}
+	}
+
 }

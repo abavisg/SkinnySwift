@@ -15,6 +15,7 @@
 		2D2388A51CF77F0B0008F12A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2388A21CF77F0B0008F12A /* Alerts.swift */; };
 		2D69599F1CF7962F001C3053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D69599E1CF7962F001C3053 /* UIKit.framework */; };
 		2DB6AB001CF89ED80056D1EA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB6AAFF1CF89ED80056D1EA /* UIColor.swift */; };
+		2DFB16111D2EA80900CF14C1 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB16101D2EA80900CF14C1 /* UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		2D2388A21CF77F0B0008F12A /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		2D69599E1CF7962F001C3053 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2DB6AAFF1CF89ED80056D1EA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2DFB16101D2EA80900CF14C1 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2D23889E1CF77F0B0008F12A /* UIView.swift */,
+				2DFB16101D2EA80900CF14C1 /* UITextField.swift */,
 				2DB6AAFF1CF89ED80056D1EA /* UIColor.swift */,
 			);
 			path = Extensions;
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2388A31CF77F0B0008F12A /* UIView.swift in Sources */,
+				2DFB16111D2EA80900CF14C1 /* UITextField.swift in Sources */,
 				2DB6AB001CF89ED80056D1EA /* UIColor.swift in Sources */,
 				2D2388A51CF77F0B0008F12A /* Alerts.swift in Sources */,
 				2D2388A41CF77F0B0008F12A /* CodeExecutionTimer.swift in Sources */,

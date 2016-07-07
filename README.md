@@ -1,5 +1,5 @@
 # SkinnySwift
-##### Version 0.2.0
+##### Version 0.3.0
 Helpful swift classes to speed up development
 
 ## Installation
@@ -23,6 +23,7 @@ pod "SkinnySwift"
 #### Extensions
 * UIView
 * UIColor
+* UITextField
 
 #### Tools
 * CodeExecutionTimer
@@ -37,6 +38,7 @@ pod "SkinnySwift"
  
 ## History
 
+- Version 0.3.0 (2016-07-07): Added UITextfield extension, added another method in Alerts
 - Version 0.2.0 (2016-05-27): Renamed UIColor+Xib to UIView UIView and added UIColor
 - Version 0.1.0 (2016-05-26): adding extension UIView+Xib, tool CodeExecutionTimer, utility Alerts
 
@@ -46,4 +48,4 @@ pod "SkinnySwift"
 
 ## License
  
-abavisg-lib is available under the MIT license. See the LICENSE file for more info.
+SkinnySwift is available under the MIT license. See the LICENSE file for more info.
